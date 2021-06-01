@@ -1,9 +1,11 @@
-# Git + GitHub As A Platform For Reproducible Research 
+# Fuzzy unsupervised-learning techniques for diagnosis in a composite UAV wing by using fiber optic sensors
 
-## Overview
-This repository sets out the skeleton of an organizational structure used for scientific research. It loosely follows what I have used for several of my research projects and I hope it inspires you to conduct your research in an open, reproducible, and honest manner.
+## Abstract
+Pattern recognition, which aims to associate data with a condition of a structure, has been applied successfully in Structural Health Monitoring (SHM) for damage diagnosis. Such association becomes more complex when applied to strain data measured from aerospace structures where the operational conditions produce changes in the strain patterns that are not related to a damage occurrence. Moreover, a damage occurrence only produces subtle changes in such patterns. That is why novelty detection strategies based on unsupervised learning have not demonstrated suitable results for strain-based SHMin operating aerospace structures. For example, imagine that it is possible to have data from all the different operational conditions for an aerostructure and, therefore, construct a model (e.g. statistical) from these data. Such model may be too general and some data from damage conditions may fit into the model and, subsequently, classified as a normal condition. One successfully-proved approach is to
+use unsupervised-learning, density-based classification to create clusters according to the operational condition and, then, build models for each specific cluster. In previous works, the authors implemented such methodology in an aluminum beam under simulated environmental conditions and subsequently, in the wing’s main beam of an Unmanned Aerial Vehicle (UAV) made of composites. The results for the metallic structure demonstrated a good performance since the changes in the patterns due to the
+operational condition variations were clear and identifiable. On the other hand, the data acquired from the UAV demonstrated to be fuzzy and without clear transitions among clusters. The aim of this work is to explore fuzzy clustering techniques in order to improve the global performance of the methodology for composite aerospace structures, which exhibit high stiffness. Fuzzy C-Means (FCM) and GustafsonKessel (GK) algorithms were tested using the UAV flight data and their performance was evaluated through Receiver Operating Characteristic (ROC) analysis
 
-## How to Use
+## Reference
 To use this template for your research, fork this repository, change the name
 to something descriptive for your project, and adjust the licensing as you
 see fit.
